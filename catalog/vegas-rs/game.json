@@ -1,0 +1,66 @@
+{
+  "id": "vegas-rs",
+  "title": "Vegas RS",
+  "tagline": "Playtest build. Fallout: New Vegas on a new engine, with co-op.",
+  "description": "Play Fallout: New Vegas on the Vegas RS engine, alone or with friends. Needs your own copy of Fallout: New Vegas; the launcher finds it automatically when it can.",
+  "accent": "#f0a43a",
+  "accent_ink": "#241603",
+  "wordmark": {
+    "family": "Bahnschrift Condensed, Bahnschrift, Arial Narrow, sans-serif",
+    "weight": 700,
+    "size": 64,
+    "tracking": "0.1em",
+    "uppercase": true
+  },
+  "releases": {
+    "source": "github",
+    "repo": "ashcroft-labs/playtest",
+    "asset_exact": "vegas-rs-game.zip",
+    "tag_prefix": "vegas-rs-",
+    "manifest": "game-build.json",
+    "auto_update": true
+  },
+  "package": {
+    "required": [
+      "vegas.exe"
+    ],
+    "executable": "vegas.exe"
+  },
+  "art": {
+    "tile": "tile.jpg",
+    "shots": [
+      "shot-1.jpg",
+      "shot-2.jpg",
+      "shot-3.jpg",
+      "shot-4.jpg",
+      "shot-5.jpg",
+      "shot-6.jpg",
+      "shot-7.jpg",
+      "shot-8.jpg"
+    ],
+    "day": [
+      1,
+      3,
+      4,
+      5
+    ],
+    "night": [
+      2,
+      6,
+      7
+    ]
+  },
+  "features": {
+    "original_game": {
+      "name": "Fallout: New Vegas",
+      "master": "FalloutNV.esm",
+      "steam_dir": "Fallout New Vegas"
+    },
+    "launch": {
+      "kind": "vegas-spec"
+    },
+    "mod_manager": {
+      "kind": "vegas-plugins"
+    }
+  }
+}
