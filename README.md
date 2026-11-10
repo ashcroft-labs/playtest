@@ -23,11 +23,11 @@ This repository holds playtest builds of Ashcroft Labs games and the Ashcroft La
 
 - **Live a life in Terra:** one world, one game. It is the same whether you play solo, host friends or join a dedicated server.
 - **Skills:** learn trades and crafts, each with its own station and items.
-- **Classes and traits:** your class comes from what you wear and carry, and you shape your character with traits at the start.
+- **Classes and traits:** start as one of ten classes (Warrior, Ranger, Sellsword, Cleric, Pilgrim, Mage, Thief, Journeyman, Peasant, or Destitute with nothing at all), each with its own kit, then shape your character with traits: benefits paid for with drawbacks.
 - **Magic:** learn spells, carry them in memory and cast them from the spell wheel.
 - **Clothing:** shirts, trousers and robes are real equipment, and every trade has its own dress.
 - **Towns and inns:** visit towns, rest at inns and meet the people who live there.
-- **Megafauna:** meet bison, wolves, dragons and more across the land.
+- **Wildlife and beasts:** bison herds, pronghorn, giant condors, wolves, bears and dragons.
 - **Co-op:** play with up to 8 friends.
 
 ## Download and play
