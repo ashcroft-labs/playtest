@@ -18,6 +18,7 @@
     "asset_exact": "MossfallBeta.zip",
     "tag_prefix": "mossfall-beta-",
     "manifest": "game-build.json",
+    "parts": "MossfallBeta-parts.json",
     "auto_update": true
   },
   "package": {
