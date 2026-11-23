@@ -1,6 +1,7 @@
 {
   "id": "mossfall",
   "title": "Mossfall",
+  "badge": "Alpha",
   "tagline": "A medieval first-person sword-and-shield game in one large generated world.",
   "description": "Play alone or with up to eight friends: open your world to them, or run a dedicated server. Explore one large generated realm, fight with sword and shield, and build up your character.",
   "accent": "#a8c66c",
@@ -12,6 +13,7 @@
     "asset_exact": "Mossfall-playtest.zip",
     "tag_prefix": "mossfall-",
     "manifest": "game-build.json",
+    "parts": "Mossfall-parts.json",
     "auto_update": true
   },
   "package": {
