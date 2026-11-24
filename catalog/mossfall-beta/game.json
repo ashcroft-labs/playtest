@@ -1,0 +1,64 @@
+{
+  "id": "mossfall-beta",
+  "title": "Mossfall Beta",
+  "tagline": "Mossfall rebuilt: one hand-made world, its towns and its people.",
+  "description": "The next Mossfall, in beta. Make your character, step into Oatwick, and explore a rebuilt world. Beta builds update often; saves from Mossfall (alpha) don't carry over.",
+  "accent": "#c9a25a",
+  "accent_ink": "#1f1608",
+  "wordmark": {
+    "family": "Palatino Linotype, Palatino, Book Antiqua, Georgia, serif",
+    "weight": 400,
+    "size": 60,
+    "tracking": "0.01em",
+    "uppercase": false
+  },
+  "releases": {
+    "source": "github",
+    "repo": "ashcroft-labs/playtest",
+    "asset_exact": "MossfallBeta.zip",
+    "tag_prefix": "mossfall-beta-",
+    "manifest": "game-build.json",
+    "parts": "MossfallBeta-parts.json",
+    "auto_update": true
+  },
+  "package": {
+    "required": [
+      "MossfallBeta/MossfallBeta.exe",
+      "MossfallBeta/MossfallBeta.pck"
+    ],
+    "executable": "MossfallBeta/MossfallBeta.exe"
+  },
+  "art": {
+    "tile": "tile.jpg",
+    "shots": [
+      "shot-1.jpg",
+      "shot-2.jpg",
+      "shot-3.jpg",
+      "shot-4.jpg",
+      "shot-5.jpg",
+      "shot-6.jpg",
+      "shot-7.jpg",
+      "shot-8.jpg"
+    ],
+    "day": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "night": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}
